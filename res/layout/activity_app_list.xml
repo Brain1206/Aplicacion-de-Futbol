@@ -1,0 +1,265 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".AppList" >
+
+ <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="68dp"
+                android:src="@drawable/im"/>
+
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=" Estadio Monumental(Lima)"
+                android:textSize="10px"
+                android:gravity="left" 
+                android:textColor="#FFFFFF"/>                
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            
+                
+            <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/ij"  />
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Estadio Maracaná(Río de Janeiro)"
+                 android:textSize="10px"
+                android:gravity="left" 
+                android:textColor="#FFFFFF"/>
+              
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/x" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Estadio Morumbí(Sao Paulo)"
+                 android:textSize="10px"
+                android:gravity="left" 
+                android:textColor="#FFFFFF"/>
+                
+               
+            </LinearLayout>
+        </LinearLayout>
+
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/j" />
+         
+            
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Estadio Mane Garrincha(Brasilia)"
+                 android:textSize="10px"
+                android:gravity="left"
+                android:textColor="#FFFFFF" />
+                
+                
+            </LinearLayout>
+        </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/d1" />
+         
+            
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Estádio Olímpico João Havelange (Engenhão) Rio de Janeiro"
+                 android:textSize="10px"
+                android:gravity="left"
+                android:textColor="#FFFFFF" />
+                
+                
+            </LinearLayout>
+        </LinearLayout>
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/d2" />
+         
+            
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text=" Estádio Joaquim Américo Guimarães Kyocera Arena (Arena da Baixada) Curitiba"
+                 android:textSize="10px"
+                android:gravity="left"
+                android:textColor="#FFFFFF" />
+                
+                
+            </LinearLayout>
+        </LinearLayout>
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/d3" />
+         
+            
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Estádio José Pinheiro Borda (Beira Rio) Porto Alegre"
+                 android:textSize="10px"
+                android:gravity="left"
+                android:textColor="#FFFFFF" />
+                
+                
+            </LinearLayout>
+        </LinearLayout>
+           <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/d4" />
+         
+            
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Estádio Governador Magalhães Pinto (Mineirão) Belo Horizonte"
+                 android:textSize="10px"
+                android:gravity="left"
+                android:textColor="#FFFFFF" />
+                
+                
+            </LinearLayout>
+        </LinearLayout>
+           
+      </LinearLayout> 
+    </ScrollView>
+
+</LinearLayout>
+    

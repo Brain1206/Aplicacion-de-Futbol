@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+    
+
+<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="68dp"
+                android:src="@drawable/b1"/>
+
+            
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Santiago Bernabeu"
+                android:textSize="10px"
+                android:gravity="left" 
+                android:textColor="#FFFFFF"/>                
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            
+                
+            <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/b2"  />
+
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Giuseppe Meazza"
+                 android:textSize="10px"
+                android:gravity="left" 
+                android:textColor="#FFFFFF"/>
+              
+            </LinearLayout>
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/b3" />
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Wembley"
+                 android:textSize="10px"
+                android:gravity="left" 
+                android:textColor="#FFFFFF"/>
+                
+               
+            </LinearLayout>
+        </LinearLayout>
+
+        
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/b4" />
+         
+            
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Allianz Arena"
+                 android:textSize="10px"
+                android:gravity="left"
+                android:textColor="#FFFFFF" />
+                
+                
+            </LinearLayout>
+        </LinearLayout>
+
+          <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/e1" />
+         
+            
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Old Trafford /Manchester (Inglaterra"
+                 android:textSize="10px"
+                android:gravity="left"
+                android:textColor="#FFFFFF" />
+                
+                
+            </LinearLayout>
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/e2" />
+         
+            
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Estadio Olímpico Luzhniki / Moscú (Rusia)"
+                 android:textSize="10px"
+                android:gravity="left"
+                android:textColor="#FFFFFF" />
+                
+                
+            </LinearLayout>
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/e3" />
+         
+            
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Signal Iduna Park / Dormund (Alemania) "
+                 android:textSize="10px"
+                android:gravity="left"
+                android:textColor="#FFFFFF" />
+                
+                
+            </LinearLayout>
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+        
+         <ImageView
+                android:layout_width="86dp"
+                android:layout_height="68dp"
+                android:src="@drawable/e4" />
+         
+            
+           <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+                
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Camp Nou / Barcelona (España)"
+                 android:textSize="10px"
+                android:gravity="left"
+                android:textColor="#FFFFFF" />
+                
+       
+            </LinearLayout>
+        </LinearLayout>
+           
+      </LinearLayout> 
+    </ScrollView>
+
+</LinearLayout>
+    

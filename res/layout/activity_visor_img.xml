@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".Visor_img" >
+
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:textSize="30px"
+        android:textColor="#FFFFFF"
+        android:text="Fotos de Estadios" />
+    
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/img2" 
+        android:id="@+id/ivVisor"
+        android:padding="10dp"/>
+    
+    <HorizontalScrollView 
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/d1"
+        android:id="@+id/ivestadio" 
+        android:padding="10dp"/>
+            
+            <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/d2"
+        android:id="@+id/ivBalon" 
+        android:padding="10dp"/>
+            
+            <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/d3"
+        android:id="@+id/ivCancha"
+        android:padding="10dp" />
+            
+            <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/d4"
+        android:id="@+id/ivBarra" 
+        android:padding="10dp"/>
+            
+             <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/e1"
+        android:id="@+id/ivMex" 
+        android:padding="10dp"/>
+             
+              <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/e2"
+        android:id="@+id/ivEur" 
+        android:padding="10dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>

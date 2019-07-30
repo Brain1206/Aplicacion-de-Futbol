@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_margin="2sp"
+        android:layout_weight="0.32"
+        android:background="#00FFFF"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Nombre"
+        android:maxLength="20"
+        android:textSize="15sp" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edad"
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_margin="2sp"
+        android:layout_weight="1"
+        android:background="#00FFFF"
+        android:gravity="center"
+        android:hint="Comentario"
+        android:maxLength="20"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/insertar"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.52"
+            android:gravity="center"
+            android:maxLength="20"
+            android:onClick="Insertar"
+            android:text="Insertar"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/ver"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.16"
+            android:onClick="Ver"
+            android:text="Ver"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+        <TextView
+            android:id="@+id/tver"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF" />
+
+</LinearLayout>
